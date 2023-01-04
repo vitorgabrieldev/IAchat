@@ -1,0 +1,25 @@
+{
+  "name": "ia_chat",
+  "version": "1.0.0",
+  "description": "Ia chat automatic",
+  "main": "index.js",
+  "scripts": {
+    "test": "runProject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitorgabrieldev/IAchat.git"
+  },
+  "keywords": [
+    "IA"
+  ],
+  "author": "Vitor Gabriel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vitorgabrieldev/IAchat/issues"
+  },
+  "homepage": "https://github.com/vitorgabrieldev/IAchat#readme",
+  "dependencies": {
+    "jquery": "^3.6.3"
+  }
+}
