@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/vitorgabrieldev/IAchat#readme",
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "jquery": "^3.6.3"
   }
 }

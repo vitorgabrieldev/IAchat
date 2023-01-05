@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <title>IA Chat - Website</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- Require Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./app.css">
+
+    <!-- Scripts -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="app.js" defer></script>
+
+</head>
+<body>
+    <!-- Components -->
+      <section class="containerMain__page">
+        <header class="containerHeader">
+            <div class="containerEditName">
+                <i class="bi bi-person-circle"></i>
+                <h1 class="titleContainer">IA Chat</h1>
+                <i class="bi bi-pencil-square"></i>
+            </div>
+            <div class="buttonsFunction">
+                <i class="bi bi-gear-fill"></i>
+                <i class="bi bi-telephone-fill"></i>
+                <i class="bi bi-camera-video-fill"></i>
+            </div>
+        </header>
+        <main class="chatContainer">
+            <ul class="listMsgItem">
+                <li class="item ia">
+                    <strong class="titleAuthor">IA - </strong>
+                    Olá meu amigo!
+                </li>
+                <li class="item you">
+                    <strong class="titleAuthor">You - </strong>
+                    Olá IA, como vc vai ?
+                </li>
+                <li class="item ia">
+                    <strong class="titleAuthor">IA - </strong>
+                    Eu vou bm e vc, como vc vai ?
+                </li>
+                <li class="item you">
+                    <strong class="titleAuthor">You - </strong>
+                    Eu vou bem tb ;-;
+                </li>
+            </ul>
+        </main>
+        <footer class="containerInput__chat">
+            <div class="containerInput">
+                <input type="text" placeholder="Enter your command here.." spellcheck="false" name="commandInput" class="inputChat" id="commandChat">
+                <i id="btnSendMsg" class="bi bi-send-fill"></i>
+            </div>
+        </footer>
+      </section>
+    <!---------------->
+</body>
+</html>

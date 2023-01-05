@@ -1,0 +1,166 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+/* font-family: 'Kanit', sans-serif; */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+    background: rgb(31, 30, 30);
+}
+
+.containerMain__page {
+    position: absolute;
+    background: rgb(59, 56, 56);
+    box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.39);
+    border-radius: 8px;
+    width: 90%;
+    height: 85%;
+    border: 1px solid #fefefe;
+}
+.containerHeader {
+    background: rgba(27, 26, 26, 0.767);
+    width: 100%;
+    height: 4rem;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    border-bottom: 1px solid #fefefe;
+    align-items: center;
+    justify-content: space-between;
+}
+.containerEditName {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.containerEditName i:nth-child(1) {
+    color: #fefefe;
+    font-size: 2.3rem;
+    cursor: pointer;
+    transition: .3s;
+    user-select: none;
+}
+.containerEditName i:nth-child(1):hover {
+    color: rgb(241, 239, 239);
+}
+.titleContainer {
+    color: #fefefe;
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    user-select: none;
+}
+.containerEditName i:nth-child(3) {
+    color: #fefefe;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .3s;
+    padding: .3rem;
+    border-radius: 5px;
+}
+.containerEditName i:nth-child(3):hover {
+    color: #000;
+    background: #fefefe;
+}
+.buttonsFunction {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1.5rem;
+
+}
+.buttonsFunction i {
+    color: #fefefe;
+    font-size: 2rem;
+    transition: .3s;
+    cursor: pointer;
+    padding: .3rem;
+    transition: .3s;
+    border-radius: 5px;
+}
+.buttonsFunction i:hover {
+    background: #fefefe;
+    color: rgb(31, 30, 30);
+}
+.containerInput__chat {
+    position: fixed;
+    padding: 1rem;
+    height: 1rem;
+    width: 90%;
+    border-radius: 0 8px 0 0;
+    bottom: 7.8%;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerInput {
+    border: 1px solid #fefefe;
+    padding: .3rem 2rem .3rem 1.3rem;
+    border-radius: 24px;
+}
+.inputChat {
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 1.3rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    color: rgb(236, 236, 236);
+    padding: 0 1.5rem 0 1.5rem;
+}
+.containerInput i {
+    color: #fefefe;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: .3s;
+    padding: .3rem;
+    border-radius: 8px;
+}
+.containerInput i:hover {
+    color: #fefefedc;
+    background: rgba(27, 26, 26, 0.466);
+}
+.chatContainer {
+    background: rgba(31, 29, 29, 0.582);
+    width: 100%;
+    height: 76%;
+}
+
+/* Chat Config */
+.listMsgItem {
+    width: 100%;
+    list-style-type: none;
+    padding: 1rem 0 1rem .3rem;
+}
+.item {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4rem;
+    width: 40%;
+    border-radius: 12px;
+    margin: .3rem;
+    padding: .5rem;
+}
+.titleAuthor {
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color: rgb(78, 77, 77);
+}
+
+.ia {
+    background: #d9fdd3;
+    color: rgb(36, 35, 35);
+}
+
+.you {
+    background: #fefefe;
+    transform: translateX(100%);
+}
